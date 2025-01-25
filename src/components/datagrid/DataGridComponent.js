@@ -8,8 +8,8 @@ import {
   DialogTitle,
   IconButton,
   MenuItem,
+  InputAdornment
 } from "@mui/material";
-import InputAdornment from '@mui/material/InputAdornment';
 import AddIcon from "@mui/icons-material/Add";
 import FilterListIcon from "@mui/icons-material/FilterList";
 import MoreVertOutlinedIcon from '@mui/icons-material/MoreVertOutlined';
@@ -23,7 +23,7 @@ import { RxCross2 } from "react-icons/rx";
 
 const DataGridComponent = () => {
   // Mock data for demonstration
-  const initialData = Array.from({ length: 97 }, (_, index) => ({
+  const initialData = Array.from({ length: 100 }, (_, index) => ({
     id: index + 1,
     modelName: `Model ${index + 1}`,
     modelType: "Extraction",

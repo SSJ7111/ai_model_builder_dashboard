@@ -20,8 +20,8 @@ const App = () => {
         {/* Navbar */}
         <div
           className={`transition-all duration-300 ${
-            isOpen ? "ml-64" : "ml-16"
-          } lg:ml-64 sm:ml-16`}
+            isOpen ? "lg:ml-64" : "lg:ml-20"
+          } sm:ml-16`}
         >
           <Navbar isOpen={isOpen} />
         </div>
@@ -29,8 +29,8 @@ const App = () => {
         {/* Page Content */}
         <div
           className={`transition-all duration-300 p-6 ${
-            isOpen ? "ml-64" : "ml-16"
-          } lg:ml-64 sm:ml-16`}
+            isOpen ? "lg:ml-64" : "lg:ml-20"
+          } sm:ml-16`}
         >
           <DataGridComponent />
         </div>
